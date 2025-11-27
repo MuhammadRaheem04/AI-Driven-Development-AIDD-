@@ -1,0 +1,25 @@
+[project]
+name = "summarizer"
+version = "0.1.0"
+description = "Study Notes Summarizer & Quiz Generator Agent"
+authors = [
+    {name = "Muhammad Ahsan Ayaz", email = "ahsanayaz@gmail.com"},
+]
+dependencies = [
+    "uvicorn",
+    "chainlit",
+    "python-dotenv",
+    "pypdf2",
+    "openai-agents",
+    "requests>=2.32.5",
+    "typing-extensions>=4.15.0",
+    "pydantic>=2.12.4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.uv]
+dev-dependencies = [
+    "ruff",
+]
